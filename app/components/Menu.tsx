@@ -12,7 +12,7 @@ const links = [
 
   {id:1, title:"Homepage", url:"/"},
   {id:1, title:"Menu", url:"/"},
-  {id:1, title:"working houres", url:"/"},
+  
   {id:1, title:"Contact", url:"/"},
 ]
 const Menu = () => {
