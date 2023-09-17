@@ -386,7 +386,7 @@ type Product = {
       id: 3,
       slug: "pizzas",
       title: "Chili Paneer",
-      desc: "Chilli Paneer is an indo chinese appetizer where crisp batter fried paneer is tossed in slighly sweet ",
+      desc: "Chilli Paneer is an indo chinese appetizer where crisp batter ",
       img: "/chillipaneer.png",
       color: "white",
     },
