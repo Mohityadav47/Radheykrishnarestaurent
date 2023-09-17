@@ -11,9 +11,9 @@ const links = [
 
 
   {id:1, title:"Homepage", url:"/"},
-  {id:1, title:"Menu", url:"/"},
+  {id:1, title:"Menu", url:"/menu"},
   
-  {id:1, title:"Contact", url:"/"},
+  {id:1, title:"Contact", url:"/contact"},
 ]
 const Menu = () => {
 const [open, setopen] = useState(false)
