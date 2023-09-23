@@ -3,6 +3,7 @@ import React from 'react'
 import Menu from './Menu'
 import CartIcon from './CartIcon'
 import Image from 'next/image'
+import contact from '../contact/page'
 
 const Navbar = () => {
  

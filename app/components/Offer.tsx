@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Countdown from './Countdown'
+import Link from 'next/link'
 const Offer = () => {
   return (
     <div className='bg-black h-screen flex flex-col md:flex-row md:justify-between md:bg-[url("/")] md:h-[70vh]'>
@@ -13,7 +14,7 @@ const Offer = () => {
 <p className='text-white xl:text-xl'>Progressively simplify effective e-toilers and process-centric methods of empower.  quikly pontificate prallel</p>
 <Countdown/>
 
-<button className='bg-red-500 text-white rounded-md  py-3 px-6'>order now</button>
+<Link href={'/offer/${item.id}'}><button className='bg-red-500 text-white rounded-md  py-3 px-6'>order now</button></Link>
 
 
 </div>

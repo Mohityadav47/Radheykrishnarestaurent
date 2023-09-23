@@ -3,6 +3,7 @@
 "use client"
 
 
+import Link from 'next/link';
 import React, { useEffect, useState } from 'react'
 type proo ={
     price:number;
@@ -63,7 +64,7 @@ quantiity
 
 
 </div>
-<button className='uppercase w-56 bg-red-500 text-white p-3 ring-1 ring-red-500'>Add to cart</button>
+<Link href={'/Cart'}><button className='uppercase w-56 bg-red-500 text-white p-3 ring-1 ring-red-500'>Add to cart</button></Link>
 </div>
 
 

@@ -353,6 +353,29 @@ type Product = {
         additionalPrice: 6,
       },
     ],
+    
+  };  
+  
+  export const singleProduct2: Product = {
+    id: 2,
+    title: "Rabari",
+    desc: "Rabri is a sweeets condenderd-milk-based dish originating from the indian subcontinent more-specifically bengal region..",
+    img: "/rabadi.png",
+    price: 90,
+    options: [
+      {
+        title: "Small",
+        additionalPrice: 0,
+      },
+      {
+        title: "Medium",
+        additionalPrice: 4,
+      },
+      {
+        title: "Large",
+        additionalPrice: 6,
+      },
+    ],
   };
   
   

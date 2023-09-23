@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import internal from 'stream'
+import Link from 'next/link'
 
 const data = [
 
@@ -48,7 +49,7 @@ const Slider = () => {
 <div className=' flex-1 h-1/2 flex items-center justify-center flex-col gap-8 text-red-500 font-bold'>
 
 <h1 className='text-5xl text-center uppercase p-4 md:p-10 md:text-6xl  xl-7xl'>{data[CurrentSlide].title}</h1>
-<button className='bg-red-500 text-white py-4 px-8'>order now</button>
+<Link href={'/menu'}><button  className='bg-red-500 text-white py-4 px-8'>order now</button></Link>
 
 
 </div>
