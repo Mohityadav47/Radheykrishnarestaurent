@@ -159,7 +159,7 @@ type Product = {
     },
     {
       id: 8,
-      title: "Rabadi",
+      title: "Rabari",
       desc: "Rabri is a sweeets condenderd-milk-based dish originating from the indian subcontinent more-specifically bengal region.",
       img: "/rabadi.png",
       price: 90,
@@ -409,7 +409,7 @@ type Product = {
       id: 3,
       slug: "pizzas",
       title: "Chili Paneer",
-      desc: "Chilli Paneer is an indo chinese appetizer where crisp batter fried paneer is tossed in slighly sweet ",
+      desc: "Chilli Paneer is an indo chinese appetizer where crisp batter ",
       img: "/chillipaneer.png",
       color: "white",
     },
