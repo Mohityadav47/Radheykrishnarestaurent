@@ -6,9 +6,9 @@ const Footer = () => {
     <div className='h-1/2 md:h-24 p-4 lg:px-20 xl:px-40 text-red-500 flex items-center justify-between'>
       
       
-      <Link className='font-bold text-xl' href=""> Radhey Krishna Restaurent</Link>
+      <Link className='font-bold text-xl' href="https://mohit-yadav-portfolio-7vh8wcskb-mohityadav47.vercel.app/"> RADHEY KRISHNA RESTAURENT</Link>
     <p>
-    &#169; All right reserved
+    &#169; ALL RIGHT RESERVED
     </p>
     
     </div>
